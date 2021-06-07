@@ -1,0 +1,96 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - supercollider > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-sass > node-sass > request > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+    - panini > vinyl-fs > glob-stream > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp > gulp-cli > liftoff > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp > vinyl-fs > glob-stream > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-add-src > vinyl-fs > glob-stream > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+    - octophant > sassdoc > sassdoc-theme-default > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+    - supercollider > sassdoc > sassdoc-theme-default > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+    - foundation-docs > cheerio > jsdom > request > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+    - foundation-docs > inky > vinyl-fs > glob-stream > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+    - octophant > sassdoc > vinyl-fs > glob-stream > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+    - supercollider > sassdoc > vinyl-fs > glob-stream > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-sass > node-sass > node-gyp > request > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+    - foundation-docs > inky > cheerio > jsdom > request > extend:
+        patched: '2021-06-07T00:58:51.083Z'
+  'npm:hoek:20180212':
+    - gulp-sass > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-06-07T00:58:51.083Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - mocha-headless-chrome > puppeteer > https-proxy-agent:
+        patched: '2021-06-07T00:58:51.083Z'
+  SNYK-JS-LODASH-567746:
+    - doiuse > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-uglify > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - inquirer > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - foundation-docs > cheerio > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-eslint > eslint > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-prompt > inquirer > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - foundation-docs > inky > cheerio > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-eslint > eslint > inquirer > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-eslint > eslint > table > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-sass-lint > sass-lint > globule > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-sass-lint > sass-lint > eslint > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - webpack-stream > webpack > async > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/parse > conventional-commits-parser > lodash':
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-sass-lint > sass-lint > eslint > inquirer > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+    - gulp-sass-lint > sass-lint > eslint > table > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+  'npm:lodash:20180130':
+    - parker > lodash:
+        patched: '2021-06-07T00:58:51.083Z'
+  'npm:minimatch:20160620':
+    - supercollider > vinyl-fs > glob-stream > minimatch:
+        patched: '2021-06-07T00:58:51.083Z'
+    - supercollider > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2021-06-07T00:58:51.083Z'
+    - supercollider > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2021-06-07T00:58:51.083Z'
+  'npm:uglify-js:20151024':
+    - octophant > sassdoc > sassdoc-theme-default > swig > uglify-js:
+        patched: '2021-06-07T00:58:51.083Z'
+    - supercollider > sassdoc > sassdoc-theme-default > swig > uglify-js:
+        patched: '2021-06-07T00:58:51.083Z'
